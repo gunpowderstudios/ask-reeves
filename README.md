@@ -1,6 +1,6 @@
-# Image Finder
+# Ask Reeves
 
-Private, browser-based catalogue for Gunpowder Studios' purchased artwork.
+Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts and layout files. Ask Reeves — if he can't find it, nobody can!
 
 ## Setup
 1. In GitHub, go to **Settings → Pages** and select **Deploy from a branch**, branch **main**, folder **/(root)**, then Save.
@@ -10,7 +10,8 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork.
 5. On reopening, click **Reopen saved folder** to refresh or access full-resolution originals. Chrome may request permission again.
 
 ## Features
-- Search by filename, folder and notes (with synonyms such as armour/armor, trousers/pants)
+- Catalogues **every file** in the chosen folder: images, Photoshop (PSD/PSB), InDesign (INDD/IDML…), Illustrator/EPS, fonts, PDFs, documents and more. Previews come from the images themselves, the preview embedded in PSD/INDD/AI/PDF files, and a specimen drawn from each font; other files get a coloured type icon. Junk such as .DS_Store is skipped. A file-type filter sits beside the search box, and files over 300 MB are catalogued without a preview.
+- Search by filename, folder, file type and notes (with synonyms such as armour/armor, trousers/pants)
 - Folder dropdown listing every nested folder; picking one shows its artwork including deeper subfolders
 - Persistent favourites and keywords, stored separately for each chosen folder (switching folders never mixes them, and they return when you choose that folder again)
 - Lazy-loaded infinite-scroll gallery
