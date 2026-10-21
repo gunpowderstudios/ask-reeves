@@ -6,15 +6,17 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork.
 1. In GitHub, go to **Settings → Pages** and select **Deploy from a branch**, branch **main**, folder **/(root)**, then Save.
 2. Open `https://gunpowderstudios.github.io/image-finder/` once Pages reports that the site is ready.
 3. In Chrome, choose a local folder (a Dropbox-synced folder is fine). Scan may take some time for 13,000+ images.
-4. The app stores small thumbnails, filenames, notes and favourites in the browser's **IndexedDB**; originals stay in their source folder and are **never uploaded** to GitHub.
+4. The app stores small thumbnails, filenames, notes, favourites and AI image vectors in the browser's **IndexedDB**; originals stay in their source folder and are **never uploaded** to GitHub or any external service.
 5. On reopening, click **Reopen saved folder** to refresh or access full-resolution originals. Chrome may request permission again.
 
 ## Features
-- Search by filename, folder and notes
-- Persistent favourites and keywords
+- Search by filename, folder and notes (with synonyms such as armour/armor, trousers/pants)
+- Folder dropdown listing every nested folder; picking one shows its artwork including deeper subfolders
+- Persistent favourites and keywords, stored separately for each chosen folder (switching folders never mixes them, and they return when you choose that folder again)
 - Lazy-loaded infinite-scroll gallery
-- Indexed thumbnail cache to avoid full rescan on every visit
-- CSV export and JSON backups/restores of favourites and notes
+- Indexed thumbnail cache; re-selecting the same folder only checks for new, changed and deleted images
+- JSON backups/restores of favourites and notes, visual HTML catalogue export
 - Contact-sheet printing (filter down to about 250 images at a time)
+- **Reeves AI visual search (Beta):** a CLIP model runs entirely in your browser to index your cached thumbnails and search by description. The model files (about 150 MB) are downloaded once from the internet and cached; your artwork is never uploaded. Reeves remembers that he was enabled and restores himself on your next visit. His eyes glow green: slow blink when ready, fast when analysing or searching.
 
 **Important:** Clearing Chrome's website data can erase saved thumbnails and preferences; export backups regularly. Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
