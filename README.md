@@ -18,6 +18,7 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 - Indexed thumbnail cache; re-selecting the same folder only checks for new, changed and deleted images
 - Visual HTML catalogue export
 - Contact-sheet printing (filter down to about 250 images at a time)
+- **3D models:** GLB, glTF, OBJ, STL, PLY, FBX, 3MF and DAE files get a rendered thumbnail and a spin-around viewer (three.js, loaded from the CDN; models are rendered locally and never uploaded). Other 3D formats (Blender, STEP, Cinema 4D, etc.) are catalogued and searchable with a placeholder. Use the "3D models" type filter to list them.
 - **Reeves AI visual search (Beta):** a CLIP model runs entirely in your browser to index your cached thumbnails and search by description. The model files (about 150 MB) are downloaded once from the internet and cached; your artwork is never uploaded. Reeves remembers that he was enabled and restores himself on your next visit. His eyes glow green: slow blink when ready, fast when analysing or searching.
 
 **Important:** Clearing Chrome's website data erases saved thumbnails, favourites and notes (there is no backup feature). Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
