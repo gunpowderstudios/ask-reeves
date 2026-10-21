@@ -12,7 +12,7 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 ## Features
 - Catalogues **every file** in the chosen folder: images, Photoshop (PSD/PSB), InDesign (INDD/IDML…), Illustrator/EPS, fonts, PDFs, documents and more. Previews come from the images themselves, the preview embedded in PSD/INDD/AI/PDF files, and a specimen drawn from each font; other files get a coloured type icon. Junk such as .DS_Store is skipped. A file-type filter sits beside the search box, and files over 300 MB are catalogued without a preview.
 - Search by filename, folder, file type and notes (with synonyms such as armour/armor, trousers/pants)
-- Folder dropdown listing every nested folder; picking one shows its artwork including deeper subfolders
+- Folder icons across the top (click a folder to see a row of its subfolders, and so on); choosing one shows its artwork including deeper subfolders, and there is a Favourites icon
 - Persistent favourites and keywords, stored separately for each chosen folder (switching folders never mixes them, and they return when you choose that folder again)
 - Lazy-loaded infinite-scroll gallery
 - Indexed thumbnail cache; re-selecting the same folder only checks for new, changed and deleted images
