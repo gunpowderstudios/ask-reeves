@@ -16,8 +16,8 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 - Persistent favourites and keywords, stored separately for each chosen folder (switching folders never mixes them, and they return when you choose that folder again)
 - Lazy-loaded infinite-scroll gallery
 - Indexed thumbnail cache; re-selecting the same folder only checks for new, changed and deleted images
-- JSON backups/restores of favourites and notes, visual HTML catalogue export
+- Visual HTML catalogue export
 - Contact-sheet printing (filter down to about 250 images at a time)
 - **Reeves AI visual search (Beta):** a CLIP model runs entirely in your browser to index your cached thumbnails and search by description. The model files (about 150 MB) are downloaded once from the internet and cached; your artwork is never uploaded. Reeves remembers that he was enabled and restores himself on your next visit. His eyes glow green: slow blink when ready, fast when analysing or searching.
 
-**Important:** Clearing Chrome's website data can erase saved thumbnails and preferences; export backups regularly. Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
+**Important:** Clearing Chrome's website data erases saved thumbnails, favourites and notes (there is no backup feature). Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
