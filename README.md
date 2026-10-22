@@ -4,7 +4,7 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 
 ## Setup
 1. In GitHub, go to **Settings → Pages** and select **Deploy from a branch**, branch **main**, folder **/(root)**, then Save.
-2. Open `https://gunpowderstudios.github.io/image-finder/` once Pages reports that the site is ready.
+2. Open `https://gunpowderstudios.github.io/ask-reeves/` once Pages reports that the site is ready.
 3. In Chrome, choose a local folder (a Dropbox-synced folder is fine). Scan may take some time for 13,000+ images.
 4. The app stores small thumbnails, filenames, notes, favourites and AI image vectors in the browser's **IndexedDB**; originals stay in their source folder and are **never uploaded** to GitHub or any external service.
 5. On reopening, click **Reopen saved folder** to refresh or access full-resolution originals. Chrome may request permission again.
