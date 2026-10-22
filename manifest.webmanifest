@@ -1,0 +1,24 @@
+{
+ "name": "Ask Reeves",
+ "short_name": "Ask Reeves",
+ "description": "A private, on-your-computer search tool for your artwork folders. Nothing is uploaded. If he can\u2019t find it, nobody can!",
+ "start_url": ".",
+ "scope": ".",
+ "display": "standalone",
+ "background_color": "#050805",
+ "theme_color": "#050805",
+ "icons": [
+  {
+   "src": "images/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "images/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
