@@ -1,7 +1,7 @@
 {
  "name": "Ask Reeves",
  "short_name": "Ask Reeves",
- "description": "Ask Reeves is your friendly AI file finder. He runs locally in your browser only and searches through any folder you like!",
+ "description": "Friendly AI file finder that runs only in your browser. Nothing is uploaded or shared: no accounts, no cookies, no tracking. Your files never leave your computer.",
  "start_url": ".",
  "scope": ".",
  "display": "standalone",
