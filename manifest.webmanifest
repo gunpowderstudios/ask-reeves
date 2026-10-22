@@ -1,7 +1,7 @@
 {
  "name": "Ask Reeves",
  "short_name": "Ask Reeves",
- "description": "A private, on-your-computer search tool for your artwork folders. Nothing is uploaded. If he can\u2019t find it, nobody can!",
+ "description": "Ask Reeves is your friendly AI file finder. He runs locally in your browser only and searches through any folder you like!",
  "start_url": ".",
  "scope": ".",
  "display": "standalone",
