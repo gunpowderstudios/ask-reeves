@@ -6,7 +6,7 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 1. In GitHub, go to **Settings → Pages** and select **Deploy from a branch**, branch **main**, folder **/(root)**, then Save.
 2. Open `https://gunpowderstudios.github.io/ask-reeves/` once Pages reports that the site is ready.
 3. In Chrome, choose a local folder (a Dropbox-synced folder is fine). Scan may take some time for 13,000+ images.
-4. The app stores small thumbnails, filenames, notes, favourites and AI image vectors in the browser's **IndexedDB**; originals stay in their source folder and are **never uploaded** to GitHub or any external service.
+4. The app stores small thumbnails, filenames, notes, favourites and (if any were made earlier) leftover AI data in the browser's **IndexedDB**; originals stay in their source folder and are **never uploaded** to GitHub or any external service.
 5. On reopening, click **Reopen saved folder** to refresh or access full-resolution originals. Chrome may request permission again.
 
 ## Features
@@ -19,6 +19,6 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 - Visual HTML catalogue export
 - Contact-sheet printing (filter down to about 250 images at a time)
 - **3D models:** GLB, glTF, OBJ, STL, PLY, FBX, 3MF and DAE files get a rendered thumbnail and a spin-around viewer (three.js, loaded from the CDN; models are rendered locally and never uploaded). Other 3D formats (Blender, STEP, Cinema 4D, etc.) are catalogued and searchable with a placeholder. Use the "3D models" type filter to list them.
-- **Reeves AI visual search (Beta):** a CLIP model runs entirely in your browser to index your cached thumbnails and search by description. The model files (about 150 MB) are downloaded once from the internet and cached; your artwork is never uploaded. Reeves remembers that he was enabled and restores himself on your next visit. His eyes glow green: slow blink when ready, fast when analysing or searching.
+- **AI visual search is switched off for now:** it took too long to learn big folders. Reeves still has his flashing red eyes; search works by filename, folder, file type and your notes.
 
 **Important:** Clearing Chrome's website data erases saved thumbnails, favourites and notes (there is no backup feature). Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
