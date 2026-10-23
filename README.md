@@ -22,7 +22,3 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 - **AI visual search is switched off for now:** it took too long to learn big folders. Reeves still has his flashing red eyes; search works by filename, folder, file type and your notes.
 
 **Important:** Clearing Chrome's website data erases saved thumbnails, favourites and notes (there is no backup feature). Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
-
-## Open with… (Mac helper)
-
-Browsers cannot launch desktop apps, so "Open with…" uses a tiny optional helper app for macOS. Install it once from ⚙ Settings → *Open with… helper* (it runs `helper/install.sh`, which you can read first). The helper asks which folder you connected and which app should open each file type (InDesign, Illustrator, Photoshop…), remembers both on that Mac, and only ever opens files inside folders you picked. It never opens programs/scripts, and nothing is uploaded or downloaded.
