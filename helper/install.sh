@@ -45,7 +45,9 @@ case "$cmd" in
     [ -n "$e" ] && echo "$e" || echo none
     ;;
   pget)    # pget KEY
+    [ -f "$PREFS" ] || exit 0
     K="$1" awk -F'\t' 'BEGIN{k=ENVIRON["K"]} $1==k{v=substr($0,length(k)+2)} END{if(v!="")print v}' "$PREFS" 2>/dev/null
+    exit 0
     ;;
   pset)    # pset KEY VALUE
     mkdir -p "$(dirname "$PREFS")"; touch "$PREFS"
