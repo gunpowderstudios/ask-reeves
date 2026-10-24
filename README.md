@@ -22,3 +22,5 @@ Private, browser-based catalogue for Gunpowder Studios' purchased artwork, fonts
 - **AI visual search is switched off for now:** it took too long to learn big folders. Reeves still has his flashing red eyes; search works by filename, folder, file type and your notes.
 
 **Important:** Clearing Chrome's website data erases saved thumbnails, favourites and notes (there is no backup feature). Browser quota limits may apply for large libraries. Do not add purchased art assets to this public repo.
+
+Names-only (list) mode is the default: Reeves lists file names without opening files, so cloud-only (Dropbox/iCloud) files are not downloaded. Press **Show thumbnails** to build thumbnails for files stored on the computer.
